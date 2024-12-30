@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es5",                        // JavaScript 버전 (ES5를 기본으로 설정)
+    "lib": ["dom", "dom.iterable", "esnext"], // 프로젝트에서 사용할 라이브러리
+    "allowJs": true,                        // .js 파일 허용
+    "skipLibCheck": true,                   // 라이브러리 타입 검사 생략
+    "esModuleInterop": true,                // CommonJS와 ES 모듈 간 호환성
+    "strict": true,                         // 엄격한 타입 검사 활성화
+    "forceConsistentCasingInFileNames": true, // 파일 경로 대소문자 일관성
+    "moduleResolution": "node",            // 모듈 해석 방식
+    "resolveJsonModule": true,             // JSON 모듈 허용
+    "isolatedModules": true,               // 각 파일을 독립적으로 처리
+    "jsx": "react-jsx"                     // React JSX 지원
+  },
+  "include": ["src"]                       // 포함할 파일 및 폴더
+}
